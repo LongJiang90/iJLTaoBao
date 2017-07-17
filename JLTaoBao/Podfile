@@ -1,0 +1,41 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '7.0'
+
+target 'JLTaoBao' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for JLTaoBao
+    #--通用的Pods--
+    pod 'SDWebImage', '~> 3.7.2'
+    pod 'MJRefresh', '~> 2.3.2'
+    pod 'DZNEmptyDataSet', '~> 1.5.2'
+    pod 'IQKeyboardManager', '~> 3.2.4'
+    pod 'AFNetworking', '~> 3.0.4'
+    pod 'JSONModel', '~> 1.1.2'
+    pod 'SVProgressHUD'
+    pod 'Masonry'
+    #-------------
+    
+    #--新增的Pods--
+    pod 'PSCollectionView', '~> 0.0.1'
+    pod 'UMengAnalytics-NO-IDFA'
+    pod 'CocoaPicker'
+    pod 'MBProgressHUD', '~> 0.9.1'
+    #顶部弹出来的提示框
+    pod 'TSMessages'
+    #统计图
+    pod 'PNChart'
+    #webView顶部加载进度条
+    pod 'NJKWebViewProgress'
+    pod 'BaiduMapKit' #百度地图SDK
+    #仿美团选项菜单
+    pod 'DOPDropDownMenu-Enhanced', '~> 1.0.0'
+    pod 'YYText'
+    #左右滑动的
+    pod 'TYPagerController'
+    #好用的日历
+    pod 'FSCalendar'  #https://github.com/WenchaoD/FSCalendar
+    #-------------
+
+end
